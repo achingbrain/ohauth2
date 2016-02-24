@@ -4,7 +4,7 @@
   "description": "oauth2 client that uses Wreck for a transport",
   "main": "index.js",
   "scripts": {
-    "test": "ava test"
+    "test": "ava --tap | tap-nyan"
   },
   "repository": {
     "type": "git",
@@ -23,10 +23,15 @@
   },
   "homepage": "https://github.com/achingbrain/ohauth2#readme",
   "dependencies": {
+    "lodash.defaultsdeep": "^4.3.0",
+    "nodeify": "^1.0.0",
+    "qs": "^6.1.0",
     "wreck": "^7.0.0"
   },
   "devDependencies": {
     "ava": "^0.12.0",
-    "nock": "^7.2.2"
+    "faker": "^3.0.1",
+    "nock": "^7.2.2",
+    "tap-nyan": "0.0.2"
   }
 }
