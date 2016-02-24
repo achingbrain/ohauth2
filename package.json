@@ -1,6 +1,6 @@
 {
   "name": "ohauth2",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "oauth2 client that uses Wreck for a transport",
   "main": "index.js",
   "scripts": {
