@@ -39,7 +39,6 @@ test('Should refresh token via promise', t => {
     .post('/oauth/authorize', qs.stringify({
       grant_type: 'refresh_token',
       refresh_token: oldToken.refresh_token,
-      scope: 'all',
       client_id: config.client_id,
       client_secret: config.client_secret
     }))
@@ -64,7 +63,6 @@ test('Should refresh token via callback', t => {
     .post('/oauth/authorize', qs.stringify({
       grant_type: 'refresh_token',
       refresh_token: oldToken.refresh_token,
-      scope: 'all',
       client_id: config.client_id,
       client_secret: config.client_secret
     }))
