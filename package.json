@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/achingbrain/ohauth2#readme",
   "dependencies": {
+    "boom": "^3.1.2",
     "lodash.defaultsdeep": "^4.3.0",
     "nodeify": "^1.0.0",
     "qs": "^6.1.0",
